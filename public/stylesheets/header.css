@@ -1,0 +1,54 @@
+.header{
+    background-color:#dddddd;
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: solid 1px var(--colorBlack);
+}
+
+.header--menu--logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    padding: 20px 0;
+}
+
+.header--logo{
+    background-color: var(--colorBlack);
+    border-radius:100% ;
+    width: 120px;
+    animation: header--logo 8s infinite;
+}
+
+@keyframes header--logo{
+    from {
+        transform: rotatey(0deg);
+        
+    }
+    to {
+        transform: rotatey(360deg);
+       
+
+    }
+}
+
+
+.header--menu{
+
+}
+
+.header--menu--items{
+    display: flex;
+    gap: 50px;
+}
+.header--menu--items li{
+    font-size: 1.5rem;
+    font-weight: 700;
+    opacity: 0.5;
+    transition: all 0.8s;
+}
+
+.header--menu--items li:hover{
+    opacity: 1;
+}
+
+
