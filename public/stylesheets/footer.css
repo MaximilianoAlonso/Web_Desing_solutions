@@ -1,0 +1,21 @@
+.footer{
+    background-color: rgb(194, 193, 189);
+    
+}
+
+.footer--info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer--info--redes{
+   width: 200px;
+}
+
+.footer--info--contactos{
+    width: 200px;
+}
+
+.footer--info--menu{
+    width: 200px;
+}

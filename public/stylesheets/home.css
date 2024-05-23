@@ -1,0 +1,62 @@
+.home {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.home--section--card {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  gap: 10px;
+}
+
+.home--section--card-items {
+  width: 500px;
+  /* background-image: url("/images/imagen4.jpg"); */
+  background-color: rgb(24, 140, 185);
+  border-radius: 5px;
+  background-size: contain;
+}
+
+.home--section--card-items p {
+  padding: 20px;
+}
+
+.home--section--about {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+
+  margin: 40px auto;
+}
+
+.home--section--persona {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  background-color: var(--colorBlanco);
+}
+.home--section--persona h2 {
+  width: 100%;
+}
+.home--section--persona p {
+  width: 100%;
+}
+
+.home--section--persona img {
+  width: 50%;
+}
+
+.home--section--persona--description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
