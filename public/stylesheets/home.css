@@ -3,26 +3,50 @@
   width: 80%;
 }
 
+
+/* TIPOS DE PAGINA */
 .home--section--card {
   display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 20px 0;
-  gap: 10px;
+/*   justify-content: center;   */
+  background: url("../images/webTypes1.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
 }
 
 .home--section--card-items {
-  width: 500px;
-  /* background-image: url("/images/imagen4.jpg"); */
-  background-color: rgb(24, 140, 185);
+display: flex;
+width: 100%;
+height: 500px;
+flex-wrap: wrap;
   border-radius: 5px;
-  background-size: contain;
+  position: relative;
+  
 }
 
-.home--section--card-items p {
-  padding: 20px;
+.home--section--card-items h2{
+  width: 100%;
+  font-size: 40px;
+margin-top: 150px;
 }
+.home--section--card-items p{
+line-height: 35px;
+letter-spacing: 2px;
+width: 50%;
+height: 200px;
+margin: 0 auto;
+font-size: 28px;
+
+}
+.home--section--card-items a{
+position: absolute;
+bottom: 10px;
+right: 10px;
+background-color: bisque;
+padding: 10px;
+border-radius: 10px;
+}
+
 
 .home--section--about {
   display: flex;
@@ -60,3 +84,21 @@
   gap: 20px;
   padding: 10px;
 }
+
+
+.swiper {
+  width: 100%;
+  height: 100%
+
+}
+
+.swiper-slide {
+
+  text-align: center;
+  font-size: 18px;
+  background: none;
+  display: flex;
+
+  align-items: center;
+}
+

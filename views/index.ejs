@@ -1,59 +1,82 @@
 <!DOCTYPE html>
 <html>
 
-<%-include('./partials/head') %>
+<%-include('./partials/head',{title: "Web Design Solutions"}) %>
 
   <body>
     <%-include('./partials/header') %>
-
       <main class="home">
-
-      
-
-
-
-
-        <h1 class="text-center m-3">Modelos de paginas </h1>
+     
         <section class="home--section--card">
-          
-          <div class="home--section--card-items">
-
-            <h1 class="m-2 text-center">Landing Page </h1>
-
-            <p>Una landing page, o página de destino, es una página web diseñada específicamente para convertir
-              visitantes en leads o clientes. Un resumen corto en una landing page es esencial para captar la atención
-              de los visitantes de inmediato y comunicar de manera clara y directa el valor de lo que se ofrece. Aquí
-              tienes algunos consejos y un ejemplo de cómo crear un resumen corto efectivo para una landing page</p>
-
-            <a class="btn btn-danger m-2 w-25" href="/servicios">Ver mas</a>
-
-
-          </div>
-          <div class="home--section--card-items">
-
-            <h1 class="m-2 text-center">Landing Page </h1>
-
-            <p>Una landing page, o página de destino, es una página web diseñada específicamente para convertir
-              visitantes en leads o clientes. Un resumen corto en una landing page es esencial para captar la atención
-              de los visitantes de inmediato y comunicar de manera clara y directa el valor de lo que se ofrece. Aquí
-              tienes algunos consejos y un ejemplo de cómo crear un resumen corto efectivo para una landing page</p>
-
-            <a class="btn btn-danger m-2 w-25" href="/servicios">Ver mas</a>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+           
+              <div class="swiper-slide ">
+       
+                <div class="home--section--card-items">
+               
+              <h2>Landing Page</h2>
+               <p>Una página enfocada en convertir visitantes en leads o clientes mediante un contenido persuasivo y una llamada a la acción clara.</p>
+                  </ul>
+                  <a class="btn btn-danger m-2 w-25" href="/servicios">Ver mas</a>
+                  </div>
 
 
-          </div>
-          <div class="home--section--card-items">
+                </div>
+                <div class="swiper-slide">
+                  <div class="home--section--card-items">
+                <h2>Institucional</h2>
+                 <p>   Una página web que representa a una organización, generalmente una entidad gubernamental, educativa o sin fines de lucro, proporcionando información oficial y recursos para el público.</p>
+                    </ul>
+                    <a class="btn btn-danger m-2 w-25" href="/servicios">Ver mas</a>
+                    </div>
+                  </div>
+           
 
-            <h1 class="m-2 text-center">Landing Page </h1>
+              <div class="swiper-slide">
+                <div class="home--section--card-items">
+                  <h2>Web Corporativa</h2>
+                  <p>El sitio oficial de una empresa que proporciona información sobre sus productos, servicios, misión y valores.</p>
+                  <a class="btn btn-danger m-2 w-25" href="/servicios">Ver mas</a>
+                </div>
+              </div>
 
-            <p>Una landing page, o página de destino, es una página web diseñada específicamente para convertir
-              visitantes en leads o clientes. Un resumen corto en una landing page es esencial para captar la atención
-              de los visitantes de inmediato y comunicar de manera clara y directa el valor de lo que se ofrece. Aquí
-              tienes algunos consejos y un ejemplo de cómo crear un resumen corto efectivo para una landing page</p>
+              <div class="swiper-slide">
+                <div class="home--section--card-items">
 
-            <a class="btn btn-danger m-2 w-25" href="/servicios">Ver mas</a>
+                  <h2>Tienda Virtual</h2>
+                  <p>Un sitio web que permite la compra y venta de productos o servicios en línea, con sistemas de carrito de compras y pagos seguros.</p>
+                  <a class="btn btn-danger m-2 w-25" href="/servicios">Ver mas</a>
+      
+      
+                </div>
+      
+              </div>
+              <div class="swiper-slide">
+                <div class="home--section--card-items">
 
+                  <h2>Blog</h2>
+                  <p>Un sitio web actualizado regularmente con artículos o entradas sobre diversos temas, escritos por uno o varios autores.</p>
+                  <a class="btn btn-danger m-2 w-25" href="/servicios">Ver mas</a>
 
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="home--section--card-items">
+
+                  <h2>Portal de Noticias</h2>
+                  <p>Un sitio web que proporciona noticias y actualizaciones en tiempo real sobre diversos temas como política, economía, deportes y entretenimiento.</p>
+                  <a class="btn btn-danger m-2 w-25" href="/servicios">Ver mas</a>
+      
+      
+                </div>
+      
+              </div>
+            </div>
+        
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
           </div>
        
         
@@ -92,38 +115,12 @@
 
         </section>
       </main>
-      <footer class="footer">
-        <div class="footer--info">
-          <div class="footer--info--redes">
-            <h3>Nestras redes</h3>
-            <ul>
-              <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
-              <li><a href="#">Redes sociales</a></li>
-              <li><a href="#">Redes sociales</a></li>
-              <li><a href="#">Redes sociales</a></li>
-            </ul>
-          </div>
-         <div class="footer--info--contactos">
-          <h3>Contactos</h3>
-          <ul>
-            <li>Contactos</li>
-            <li>Contactos</li>
-            <li>Contactos</li>
-            <li>Contactos</li>
-            <li>Contactos</li>
-          </ul>
-         </div>
-         <div class="footer--info--menu">
-          <h3 >Menu</h3>
-          <ul>
-            <li><a href="#">Redes sociales</a></li>
-            <li><a href="#">Redes sociales</a></li>
-            <li><a href="#">Redes sociales</a></li>
-            <li><a href="#">Redes sociales</a></li>
-          </ul>
-        </div>
-        </div>
-      </footer>
+      <%-include('./partials/footer') %>
+      
+ 
   </body>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="../javascript/swiper.js"></script>
+ 
 
 </html>
