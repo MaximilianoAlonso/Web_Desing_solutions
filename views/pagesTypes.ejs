@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%-include('./partials/head',{ title: tipo }) %>
+
+  <body>
+    <%-include('./partials/header') %>
+    <main class="tipos-de-paginas">
+      <section>
+        <h2><%= tipo %></h2>
+        <p> <%= descripcion %></p>
+
+
+        <ul>
+          <h3>Beneficios:</h3>
+          <% beneficios.forEach(list => { %>
+          <li><%= list %></li>
+          <% }) %>
+        </ul>
+
+        <ul>
+          <h3>Especificaciones:</h3>
+          <% especificaciones.forEach(list => { %>
+          <li><%= list %></li>
+          <% }) %>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
