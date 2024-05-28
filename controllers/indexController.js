@@ -1,20 +1,40 @@
+
+const fs = require("fs")
 module.exports = {
     index: (req,res) => {
-
-        return res.render('index')
+   
+        res.render('index')
     },
- 
     about : (req,res) => {
-        return res.render('about')
+        
+        res.render('about')
     },
     portfolio : (req,res) => {
-        return res.render('protfolio')
+        
+        res.render('protfolio')
     },
     servicios : (req,res) => {
-        return res.render('servicios')
+        
+        res.render('servicios')
     },
     contact : (req,res) => {
-        return res.render('contact')
+        
+        res.render('contact')
     },
+    pagesTypes: (req,res) => {
 
+        const {tipo} = req.params.tipo;
+        const data = JSON.parse(fs.readFileSync("./data/data.json", "utf-8"));
+       const tipoPagina=  data.find(tipo => tipo == tipo)
+        
+         res.render("pagesTypes",{
+           tipo:  tipoPagina.Tipo,
+           descripcion:  tipoPagina.Descripción,
+           especificaciones : tipoPagina.Especificaciones,
+           beneficios: tipoPagina.Beneficios
+         })
+         
+         
+
+}
 }
