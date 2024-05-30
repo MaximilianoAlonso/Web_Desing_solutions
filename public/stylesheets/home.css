@@ -3,6 +3,16 @@
   width: 80%;
 }
 
+.home--baner{
+ width: 1280px;
+margin: 0 auto; 
+
+}
+.home--baner video{
+  width: 100%;
+  margin: 0 auto;
+
+}
 
 /* TIPOS DE PAGINA */
 .home--section--card {
@@ -48,6 +58,8 @@ border-radius: 10px;
 }
 
 
+
+
 .home--section--about {
   display: flex;
   flex-wrap: wrap;
@@ -55,7 +67,6 @@ border-radius: 10px;
   align-items: center;
   gap: 20px;
   width: 100%;
-
   margin: 40px auto;
 }
 

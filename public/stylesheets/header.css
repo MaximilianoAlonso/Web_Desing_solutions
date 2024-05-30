@@ -51,7 +51,7 @@
 .header--menu--items ul {
   display: none;
   position: absolute;
-  top: 100%;
+  top: 0;
   left: -20px;
   text-align: center;
   background-color: #F9F9F1;

@@ -6,24 +6,32 @@
     <%-include('./partials/header') %>
     <main class="tipos-de-paginas">
       <section>
-        <h2><%= tipo %></h2>
+        <div style="width: 1024px; margin: 0 auto; padding: 15PX;">
+          <h2><%= tipo %></h2>
+          <img src="/images/WhatsApp Image 2024-05-29 at 21.51.11.jpeg" width="100%" alt="">
+        </div>
+       
         <p> <%= descripcion %></p>
-
-
-        <ul>
-          <h3>Beneficios:</h3>
-          <% beneficios.forEach(list => { %>
-          <li><%= list %></li>
-          <% }) %>
-        </ul>
-
-        <ul>
-          <h3>Especificaciones:</h3>
-          <% especificaciones.forEach(list => { %>
-          <li><%= list %></li>
-          <% }) %>
-        </ul>
-      </section>
+      
+     
+        </section>
+        <section class="tipos-de-paginas--detail">
+          <ul>
+            <h3>Beneficios:</h3>
+            <% beneficios.forEach(list => { %>
+            <li><%= list %></li>
+            <% }) %>
+          </ul>
+  
+          <ul>
+            <h3>Especificaciones:</h3>
+            <% especificaciones.forEach(list => { %>
+            <li><%= list %></li>
+            <% }) %>
+          </ul>
+        </section>
+        
+      
     </main>
   </body>
 </html>

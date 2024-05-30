@@ -1,3 +1,17 @@
-.tipos-de-paginas{
-    
+.tipos-de-paginas section{
+    margin: 30px auto;
+    padding: 15px;
+    width: 80%;
 }
+
+.tipos-de-paginas section h2 ,p{
+    text-align: center;
+}
+
+.tipos-de-paginas--detail {
+display: flex;
+justify-content: space-around;
+align-items: start;
+
+}
+

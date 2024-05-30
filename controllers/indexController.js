@@ -2,8 +2,11 @@
 const fs = require("fs")
 module.exports = {
     index: (req,res) => {
-   
-        res.render('index')
+        const data = JSON.parse(fs.readFileSync("./data/data.json", "utf-8"));
+    
+        res.render('index',{
+           data 
+        })
     },
     about : (req,res) => {
         
@@ -23,9 +26,9 @@ module.exports = {
     },
     pagesTypes: (req,res) => {
 
-        const {tipo} = req.params.tipo;
+        const {id} = req.params;
         const data = JSON.parse(fs.readFileSync("./data/data.json", "utf-8"));
-       const tipoPagina=  data.find(tipo => tipo == tipo)
+       const tipoPagina=  data.find(tipo => tipo.id == id)
         
          res.render("pagesTypes",{
            tipo:  tipoPagina.Tipo,
