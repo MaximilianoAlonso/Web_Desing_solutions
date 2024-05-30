@@ -8,6 +8,6 @@ router.get('/', index )
       .get('/protfolio', portfolio )
       .get('/servicios', servicios )
       .get('/contact', contact )
-      .get("/tipos_de_paginas/:tipo", pagesTypes)
+      .get("/tipos_de_paginas/:id", pagesTypes)
 
 module.exports = router;

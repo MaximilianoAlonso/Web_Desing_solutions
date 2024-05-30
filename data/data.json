@@ -1,5 +1,6 @@
 [
   {
+    "id": "blog",
     "Tipo": "Blog",
     "Descripción": "Un blog es un tipo de sitio web que se actualiza regularmente con nuevas entradas o artículos. Generalmente se presenta en un formato de diario o revista en línea, y puede cubrir una amplia gama de temas desde intereses personales hasta profesionales. Los blogs permiten a los autores compartir sus ideas, experiencias, conocimientos y opiniones con una audiencia más amplia. Su contenido puede incluir texto, imágenes, videos y otros medios.",
     "Especificaciones": [
@@ -18,6 +19,7 @@
     ]
   },
   {
+    "id": "landing",
     "Tipo": "Landing Page",
     "Descripción": "Una landing page es una página web diseñada específicamente para una campaña de marketing o publicidad con un propósito particular. Su objetivo es promover un producto, servicio o evento y convertir a los visitantes en leads o clientes. Las landing pages están optimizadas para dirigir a los usuarios hacia una acción específica, como registrarse para una oferta, descargar un recurso o realizar una compra.",
     "Especificaciones": [
@@ -35,6 +37,7 @@
     ]
   },
   {
+    "id": "ecommerce",
     "Tipo": "Ecommerce",
     "Descripción": "Un ecommerce (comercio electrónico) es un sitio web diseñado para vender productos o servicios en línea. Permite a los usuarios navegar por un catálogo de productos, añadir artículos a un carrito de compras y realizar pagos de manera segura. Los sitios de ecommerce facilitan la compra y venta de bienes y servicios las 24 horas del día, los 7 días de la semana, y pueden incluir características adicionales como reseñas de productos, recomendaciones personalizadas y soporte al cliente.",
     "Especificaciones": [
@@ -53,6 +56,7 @@
     ]
   },
   {
+    "id": "corporativa",
     "Tipo": "Web Corporativa",
     "Descripción": "Una web corporativa es el sitio web principal de una empresa o entidad. Está diseñada para promover la imagen de marca, proporcionar información sobre los productos o servicios de la empresa y facilitar la comunicación con los clientes. Estas páginas suelen incluir secciones sobre la historia de la empresa, su misión y visión, un catálogo de productos o servicios, testimonios de clientes y formularios de contacto.",
     "Especificaciones": [
@@ -71,6 +75,7 @@
     ]
   },
   {
+    "id": "noticias",
     "Tipo": "Portal de Noticias",
     "Descripción": "Un portal de noticias es un sitio web que ofrece una amplia variedad de noticias y contenido informativo. Generalmente, este contenido está organizado por categorías como política, negocios, tecnología, entretenimiento, deportes, etc. Los portales de noticias se actualizan con frecuencia para proporcionar a los lectores información actualizada y relevante sobre diversos temas.",
     "Especificaciones": [
@@ -89,6 +94,7 @@
     ]
   },
   {
+    "id": "institucional",
     "Tipo": "Institucional",
     "Descripción": "Un sitio web institucional es una plataforma en línea diseñada para representar a una organización, institución o entidad. Su propósito principal es proporcionar información detallada sobre la organización, su historia, misión, visión, valores y servicios ofrecidos. Además, puede incluir información sobre el equipo de trabajo, noticias y eventos relacionados con la organización, y formularios de contacto para facilitar la comunicación.",
     "Especificaciones": [
