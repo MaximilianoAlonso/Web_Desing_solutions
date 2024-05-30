@@ -1,9 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <%-include('./partials/head',{title: "Contact"})  %>
+    <%-include('./partials/head', {title : "Contáctanos!"})  %>
 
     <body>
       <%-include('./partials/header')  %>
-    <h1>contactos</h1>
+      <main class="contact">
+        <section>
+          <article>
+    <h2>Contáctanos</h2>
+            <p>¡Estamos aquí para ayudarte a llevar tu presencia en línea al siguiente nivel! Si tienes alguna pregunta, necesitas más información sobre nuestros servicios o quieres discutir un proyecto específico, no dudes en ponerte en contacto con nosotros. Nuestro equipo de expertos en desarrollo web está listo para asistirte en todo lo que necesites.</p>
+
+          </article>
+        
+           <form action="/enviar-correo" method="post">
+<div>
+          <input type="text" id="name" name="name" placeholder="Nombre" required>
+          
+          <input type="email" id="email" name="email" placeholder="Correo" required>
+          
+          <input type="tel" id="phone" name="phone" placeholder="Teléfono">
+
+</div>
+<div>
+   <textarea id="message" name="message" placeholder="Escribe comentarios, sugerencias, dudas  consultas" required></textarea>
+          
+         
+</div>
+<button type="submit">Enviar</button>
+         
+      </form>
+        </section>
+       
+      </main>
+      <%-include('./partials/footer')  %>
 </body>
 </html>
