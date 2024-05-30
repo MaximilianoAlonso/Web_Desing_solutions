@@ -1,17 +1,38 @@
 .tipos-de-paginas section{
-    margin: 30px auto;
-    padding: 15px;
+    margin: 0 auto;
     width: 80%;
+    
+}
+.tipos-de-paginas--titulo{
+    width: 80%;
+    height: 400px;
+    margin:  0 auto;
+    z-index: 0;
+    background-image: url('/images/banners/continents-873103_1280.jpg');
+    background-position-x: 500px;
 }
 
-.tipos-de-paginas section h2 ,p{
+.tipos-de-paginas--titulo h2{
+ position: absolute;
+ top: 35%;
+ left: 25%;
+ font-size: 3rem;
+
+}
+
+.tipos-de-paginas section p{
+    width: 80%;
     text-align: center;
+    padding: 20px;
+    margin: 0 auto;
 }
 
 .tipos-de-paginas--detail {
 display: flex;
 justify-content: space-around;
 align-items: start;
-
+padding: 20px 0;
 }
+
+
 

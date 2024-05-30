@@ -113,3 +113,22 @@ border-radius: 10px;
   align-items: center;
 }
 
+/* NOSOTROS */
+
+.home--section--about{
+
+}
+
+.home--section--persona{
+ width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.home--section--persona img{
+  border-radius: 100%;
+  width: 20%;
+}
+
+.home--section--persona--description{}
