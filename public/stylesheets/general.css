@@ -36,3 +36,8 @@ li{
 h2 ,h3{
     font-family: var(--tipografiaTitulosMenu);
 }
+
+h1{
+    font-family: var(--tipografiaTitulosMenu);
+    
+}

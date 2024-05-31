@@ -3,88 +3,122 @@
   width: 80%;
 }
 
-.home--baner{
- width: 1280px;
-margin: 0 auto; 
-
+.home--baner {
+  width: 80%;
+  margin: 0px auto 30px;
 }
-.home--baner video{
+.home--baner img{
   width: 100%;
-  margin: 0 auto;
-
 }
+
 
 /* TIPOS DE PAGINA */
 .home--section--card {
   display: flex;
-/*   justify-content: center;   */
+  width: 80%;
+
+  margin: 0 auto;
+  /*   justify-content: center;   */
   background: url("../images/webTypes1.webp");
   background-repeat: no-repeat;
   background-size: cover;
- 
 }
 
 .home--section--card-items {
-display: flex;
-width: 100%;
-height: 500px;
-flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  height: 500px;
+  flex-wrap: wrap;
   border-radius: 5px;
   position: relative;
-  
 }
 
-.home--section--card-items h2{
+.home--section--card-items h2 {
   width: 100%;
   font-size: 40px;
-margin-top: 150px;
+  margin-top: 150px;
 }
-.home--section--card-items p{
-line-height: 35px;
-letter-spacing: 2px;
-width: 50%;
-height: 200px;
-margin: 0 auto;
-font-size: 28px;
-
+.home--section--card-items p {
+  line-height: 35px;
+  letter-spacing: 2px;
+  width: 50%;
+  height: 200px;
+  margin: 0 auto;
+  font-size: 28px;
 }
-.home--section--card-items a{
-position: absolute;
-bottom: 10px;
-right: 10px;
-background-color: bisque;
-padding: 10px;
-border-radius: 10px;
+.home--section--card-items a {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: bisque;
+  padding: 10px;
+  border-radius: 10px;
 }
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
 
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: none;
+  display: flex;
 
+  align-items: center;
+}
+
+/* promociones */
+
+.home--section--promociones{
+  width: 80%;
+  margin: 100px auto;
+}
+
+.home--section--promociones img{
+  width: 100%;
+}
+
+/* NOSOTROS */
 
 .home--section--about {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
+
   gap: 20px;
   width: 100%;
   margin: 40px auto;
 }
-
+.home--section--about h1 {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
 .home--section--persona {
   display: flex;
-  width: 100%;
+  flex-direction: column;
+  width: 40%;
   padding: 10px;
   background-color: var(--colorBlanco);
 }
-.home--section--persona h2 {
-  width: 100%;
-}
+
 .home--section--persona p {
-  width: 100%;
+  text-align: center;
+  font-weight: 700;
+}
+.home--section--persona .area {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 
 .home--section--persona img {
-  width: 50%;
+  width: 30%;
+  border-radius: 50%;
+  margin: 0 auto;
 }
 
 .home--section--persona--description {
@@ -95,40 +129,8 @@ border-radius: 10px;
   gap: 20px;
   padding: 10px;
 }
-
-
-.swiper {
-  width: 100%;
-  height: 100%
-
+.home--section--persona--description--boton {
+  background-color: wheat;
+  padding: 15px;
+  border-radius: 10%;
 }
-
-.swiper-slide {
-
-  text-align: center;
-  font-size: 18px;
-  background: none;
-  display: flex;
-
-  align-items: center;
-}
-
-/* NOSOTROS */
-
-.home--section--about{
-
-}
-
-.home--section--persona{
- width: 80%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.home--section--persona img{
-  border-radius: 100%;
-  width: 20%;
-}
-
-.home--section--persona--description{}

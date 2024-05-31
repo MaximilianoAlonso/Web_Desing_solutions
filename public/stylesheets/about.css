@@ -1,0 +1,26 @@
+.about {
+}
+.about h1 {
+  width: 100%;
+  margin: 20px 0;
+  text-align: center;
+}
+.about section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.about--section--persona {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  width: 40%;
+  padding: 15px;
+  background-color: rgb(170, 167, 164);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.about--persona div {
+}
