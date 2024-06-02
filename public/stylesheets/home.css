@@ -1,14 +1,28 @@
 .home {
   margin: 0 auto;
   width: 80%;
+  
 }
 
 .home--baner {
-  width: 80%;
+  width: 100%;
   margin: 0px auto 30px;
+  position: relative;
+
+}
+.home--baner pre{
+  display:block;
+  font-size: 30px;
+  width: 100%;
+position: absolute;
+top: 80px;
+margin-left: 60px;
+color: rgba(0, 0, 0, 0.415);
 }
 .home--baner img{
   width: 100%;
+  border-radius: 10px;
+  filter: opacity(0.5);
 }
 
 
