@@ -1,26 +1,320 @@
 .about {
+  width: 80%;
+  margin: 40px auto;
 }
-.about h1 {
-  width: 100%;
-  margin: 20px 0;
-  text-align: center;
+
+/* ABOUT QUIENES SOMOS */
+
+.about--section--quienes--somos {
+  margin: 40px auto;
+  background-color: silver;
+  padding: 15px;
 }
-.about section {
+
+.about--conten {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 15px;
 }
+
+.about--conten--img {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 600px;
+  padding: 10px;
+  transition: all 2.5s ease;
+}
+
+.about--conten--img img {
+  width: 50%;
+  border-radius: 100%;
+  transition: all 1s ease;
+}
+
+
+
+
+
+.about--conten--img p{
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.about--conten--img a {
+  color: black;
+  padding: 15px;
+  transition: all 2s ease;
+}
+
+.about--conten--img:hover a{
+  background-color: var(--colorDarckHaki);
+  border-radius: 20px;
+}
+
+.about--conten--eslogan {
+  width: 100%;
+  line-height: 30px;
+  text-align: center;
+ 
+}
+
+.about--conten--eslogan h2{
+  margin: 20px 0;
+}
+
+/* ABOUT COLABORADORES */
+
+.about--section--colaboradores{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+
+
 
 .about--section--persona {
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  gap: 20px;
-  width: 40%;
-  padding: 15px;
-  background-color: rgb(170, 167, 164);
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  width: 100%;
+  padding: 10px;
+  background-color: var(--colorDarckHaki);
+  margin: 30px 0;
 }
-.about--persona div {
+
+.about--section--persona--2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  padding: 10px;
+  background-color: var(--colorDarckHaki);
+  margin: 30px 0;
+}
+
+.about--section--persona--logo {
+  width: 400px;
+  border-radius: 10px;
+ 
+}
+
+.about--section--persona--logo h2{
+  margin: 20px 0;
+}
+
+.about--section--persona--descroption {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px ;
+  margin: 20px auto;
+ 
+}
+.about--section--persona--descroption-1{
+  width: 400px;
+}
+.about--section--persona--descroption-1 h2{
+  width: 100%;
+  margin: 20px 0;
+}
+.about--section--persona--descroption-1 p{
+  width: 100%;
+}
+
+
+
+#css{
+  color: cornflowerblue;
+  font-size: 4rem;
+  margin: 0 10px;
+}
+
+#js{
+  color: yellow;
+  font-size: 4rem;
+  margin: 0 10px;
+}
+
+#html{
+  color: red;
+  font-size: 4rem;
+  margin: 0 10px;
+}
+
+
+@media(max-width: 1439px){
+
+  .about {
+    width: 80%;
+    margin: 40px auto;
+  }
+  
+  /* ABOUT QUIENES SOMOS */
+  
+  .about--section--quienes--somos {
+    margin: 40px auto;
+    background-color: silver;
+    padding: 15px;
+    
+  }
+  
+  .about--conten {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+  }
+  
+  .about--conten--img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    padding: 10px;
+    transition: all 2.5s ease;
+  }
+  
+  .about--conten--img img {
+    width: 50%;
+    border-radius: 100%;
+    transition: all 1s ease;
+  }
+  
+  
+  
+  
+  
+  .about--conten--img p{
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  
+  .about--conten--img a {
+    color: black;
+    padding: 15px;
+    transition: all 2s ease;
+  }
+  
+  .about--conten--img:hover a{
+    background-color: var(--colorDarckHaki);
+    border-radius: 20px;
+  }
+  
+  .about--conten--eslogan {
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  
+  /* ABOUT COLABORADORES */
+  
+  .about--section--colaboradores{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+  }
+  
+  .about h1 {
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+  
+  }
+  
+  
+  .about--section--persona {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--colorDarckHaki);
+    margin: 30px 0;
+  }
+  
+  .about--section--persona--2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--colorDarckHaki);
+    margin: 30px 0;
+  }
+  
+  .about--section--persona--logo {
+   text-align: center;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .about--section--persona--descroption {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px auto;
+    width: 100%;
+   
+  }
+  .about--section--persona--descroption-1{
+    width:100%;
+  }
+  .about--section--persona--descroption-1 h2{
+    width: 100%;
+  }
+  .about--section--persona--descroption-1 p{
+    width: 100%;
+  }
+  
+  
+  
+  #css{
+    color: cornflowerblue;
+    font-size: 4rem;
+  }
+  
+  #js{
+    color: yellow;
+    font-size: 4rem;
+  }
+  
+  #html{
+    color: red;
+    font-size: 4rem;
+  }
+  
+}
+
+
+@media(max-width:540px){
+
+ 
+ 
+  
 }

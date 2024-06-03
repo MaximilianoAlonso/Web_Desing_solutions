@@ -1,38 +1,47 @@
-.tipos-de-paginas section{
-    margin: 0 auto;
-    width: 80%;
-    
+.tipos-de-paginas section {
+  margin: 50px auto;
+  width: 80%;
 }
-.tipos-de-paginas--titulo{
-    width: 80%;
-    height: 400px;
-    margin:  0 auto;
-    z-index: 0;
-    background-image: url('/images/banners/continents-873103_1280.jpg');
-    background-position-x: 500px;
-}
-
-.tipos-de-paginas--titulo h2{
- position: absolute;
- top: 35%;
- left: 25%;
- font-size: 3rem;
+.tipos-de-paginas--titulo {
+  width: 80%;
+ 
+  margin: 0 auto;
 
 }
 
-.tipos-de-paginas section p{
-    width: 80%;
-    text-align: center;
-    padding: 20px;
-    margin: 0 auto;
+.tipos-de-paginas--titulo--imagen {
+  width: 100%;
+  margin: 100px auto;
+}
+
+.tipos-de-paginas--titulo--imagen img {
+  width: 100%;
+  
+}
+
+.tipos-de-paginas--titulo h2 {
+ text-align: center;
+  font-size: 3rem;
+  
+}
+
+.tipos-de-paginas section p {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
 }
 
 .tipos-de-paginas--detail {
-display: flex;
-justify-content: space-around;
-align-items: start;
-padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: start;
+  padding: 20px 0;
+  width: 100%;
+  gap: 20px;
 }
 
-
-
+.tipos-de-paginas--detail ul {
+  width: 500px;
+}

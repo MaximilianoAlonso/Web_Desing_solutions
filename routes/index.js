@@ -4,7 +4,6 @@ const router = express.Router();
 
 /* GET home page. */
 router.get('/', index )
-      .get('/about', about )
       .get('/protfolio', portfolio )
       .get('/servicios', servicios )
       .get('/contact', contact )

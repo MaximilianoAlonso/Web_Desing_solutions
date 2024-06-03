@@ -33,9 +33,7 @@ module.exports = {
       data,
     });
   },
-  about: (req, res) => {
-    res.render("about");
-  },
+ 
   portfolio: (req, res) => {
     res.render("protfolio");
   },

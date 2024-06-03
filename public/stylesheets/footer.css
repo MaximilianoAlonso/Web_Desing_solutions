@@ -53,3 +53,13 @@
    
     font-size: 1rem;
 }
+
+@media (max-width:767px) {
+  .footer--info--menu{
+    display: none;
+  }
+
+  .footer--info--redes{
+    display: none;
+  }
+}
