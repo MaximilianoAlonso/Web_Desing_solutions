@@ -1,7 +1,9 @@
 .home {
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
   overflow: hidden;
+  background-color: rgb(197, 198, 199);
+  padding: 20px;
 }
 
 .home--baner {
@@ -202,7 +204,7 @@ color: rgba(255, 255, 255, 0.849);
     position: absolute;
     top: 80px;
     margin-left: 60px;
-    color: rgba(0, 0, 0, 0.415);
+    color: rgba(255, 255, 255, 0.849);
   }
   .home--baner img {
     width: 100%;
@@ -380,7 +382,7 @@ color: rgba(255, 255, 255, 0.849);
     position: absolute;
     top: 80px;
     margin-left: 150px;
-    color: rgba(0, 0, 0, 0.415);
+    color: rgba(255, 255, 255, 0.849);
   }
   .home--baner img {
     width: 100%;
@@ -551,7 +553,7 @@ color: rgba(255, 255, 255, 0.849);
     position: absolute;
     top: 50px;
     margin-left: 10px;
-    color: rgba(0, 0, 0, 0.415);
+    color: rgba(255, 255, 255, 0.849);
   }
   .home--baner img {
     width: 100%;
@@ -601,7 +603,7 @@ color: rgba(255, 255, 255, 0.849);
     position: absolute;
     top: 50px;
     margin-left: 10px;
-    color: rgba(0, 0, 0, 0.415);
+    color: rgba(255, 255, 255, 0.849);
   }
   .home--baner img {
     width: 100%;

@@ -1,43 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <%-include('./partials/head',{ title: tipo }) %>
+<%-include('./partials/head',{ title: tipo }) %>
 
   <body>
-    <%-include('./partials/header') %>
-    <main class="tipos-de-paginas">
-      <section>
-        <div class="tipos-de-paginas--titulo">
-          
-          <h2><%= tipo %></h2>
-          <div class="tipos-de-paginas--titulo--imagen">
-            <img src="/images/servicios.jpg" alt="">
-          </div>
- <p> <%= descripcion %></p>
+   
 
-        </div>
-       
-       
-      
-     
-        </section>
-        <section class="tipos-de-paginas--detail">
-          <ul>
-            <h3>Beneficios:</h3>
-            <% beneficios.forEach(list => { %>
-            <li><%= list %></li>
-            <% }) %>
-          </ul>
-  
-          <ul>
-            <h3>Especificaciones:</h3>
-            <% especificaciones.forEach(list => { %>
-            <li><%= list %></li>
-            <% }) %>
-          </ul>
-        </section>
-        
-        
-      
+      <%-include('./partials/header') %>
+        <main class="tipos-de-paginas">
+           <div class="contain--section">
+          <section>
+            <div class="tipos-de-paginas--titulo">
+
+              <h2>
+                <%= tipo %>
+              </h2>
+              <div class="tipos-de-paginas--titulo--imagen">
+                <img src="/images/servicios.jpg" alt="">
+               
+              </div>
+              <p>
+                <%= descripcion %>
+              </p>
+
+            </div>
+
+
+
+
+          </section>
+          <section class="tipos-de-paginas--detail">
+            <ul>
+              <h3>Beneficios:</h3>
+              <% beneficios.forEach(list=> { %>
+                <li>
+                  <%= list %>
+                </li>
+                <% }) %>
+            </ul>
+
+            <ul>
+              <h3>Especificaciones:</h3>
+              <% especificaciones.forEach(list=> { %>
+                <li>
+                  <%= list %>
+                </li>
+                <% }) %>
+            </ul>
+          </section>
+
+    </div>
+
+   
+
     </main>
   </body>
+
 </html>
