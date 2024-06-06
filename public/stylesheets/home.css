@@ -2,8 +2,10 @@
   margin: 0 auto;
   width: 90%;
   overflow: hidden;
-  background-color: rgb(197, 198, 199);
+background-color: #D7DBDA;
   padding: 20px;
+  border-radius: 10px 120px 10px 50px;
+  
 }
 
 .home--baner {
@@ -12,16 +14,16 @@
   position: relative;
   height: 300px;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 10px 110px 10px 50px;
 }
 .home--baner video{
 width: 100%;
-border-radius: 10px;
+
 }
 .home--baner pre{
   text-transform: uppercase;
   display:block;
-  font-size: 42px;
+  font-size: 62px;
   width: 100%;
 position: absolute;
 line-height: 50px;
@@ -199,12 +201,12 @@ color: rgba(255, 255, 255, 0.849);
   }
   .home--baner pre {
     display: block;
-    font-size: 30px;
+    font-size: 60px;
     width: 100%;
     position: absolute;
     top: 80px;
     margin-left: 60px;
-    color: rgba(255, 255, 255, 0.849);
+    color: rgb(255, 255, 255);
   }
   .home--baner img {
     width: 100%;
@@ -377,11 +379,11 @@ color: rgba(255, 255, 255, 0.849);
   }
   .home--baner pre {
     display: block;
-    font-size: 30px;
+    font-size: 50px;
     width: 100%;
     position: absolute;
     top: 80px;
-    margin-left: 150px;
+    margin-left: 50px;
     color: rgba(255, 255, 255, 0.849);
   }
   .home--baner img {

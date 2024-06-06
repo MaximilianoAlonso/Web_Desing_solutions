@@ -7,7 +7,7 @@
 
 .about--section--quienes--somos {
   margin: 40px auto;
-  background-color: silver;
+
   padding: 15px;
 }
 
@@ -60,11 +60,13 @@
   width: 100%;
   line-height: 30px;
   text-align: center;
+
  
 }
 
 .about--conten--eslogan h2{
   margin: 20px 0;
+  text-transform: uppercase;
 }
 
 /* ABOUT COLABORADORES */
@@ -166,7 +168,7 @@
   
   .about--section--quienes--somos {
     margin: 40px auto;
-    background-color: silver;
+
     padding: 15px;
     
   }

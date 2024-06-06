@@ -13,15 +13,19 @@
     <source src="/videos/banner.mp4" type="video/mp4">
     Tu navegador no soporta la reproducción de videos.
 </video>
-     
-            <pre>" Nuestra Mision...
-              Tu evolución digital "
+     <div  class="hero">  <pre  id="typewriter">
+ 
             </pre>
+
+     </div>
+          
           </div>
 
         </section>
+<!-- NOSOTROS -->
+<%- include('./partials/about') %>
 
-
+<!-- TIPOS DE PAGINAS -->
         <section class="home--section--card">
 
           <div class="swiper mySwiper">
@@ -98,7 +102,7 @@
 
         </section>
 
-
+<!-- PROMOCIONES -->
         <section>
           <div class="home--section--promociones">
             <img src="/images/1.jpg" alt="">
@@ -106,7 +110,6 @@
           
         </section>
 
-       <%- include('./partials/about') %>
 
 
       </main>
@@ -114,6 +117,26 @@
 
 
   </body>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+  const text = `" Nuestra Misión...\n     ...Tu evolución digital "`;
+  const typewriterElement = document.getElementById("typewriter");
+  let index = 0;
+
+  const typingInterval = 5000 / text.length;  // 5000ms (5 seconds) divided by the number of characters
+
+  function typeWriter() {
+    if (index < text.length) {
+      typewriterElement.textContent += text.charAt(index);
+      index++;
+      setTimeout(typeWriter, typingInterval);
+    }
+  }
+
+  typewriterElement.textContent = '';  // Clear initial content
+  typeWriter();
+});
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="../javascript/swiper.js"></script>
 
