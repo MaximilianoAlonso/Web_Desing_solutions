@@ -1,13 +1,15 @@
 .tipos-de-paginas {
-  width: 80%;
+  width: 90%;
+  max-width: 1500px;
   height: auto;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   background-color: rgb(197, 198, 199);
   padding: 20px;
-  margin: 0 auto;
+  margin: 30px auto;
   overflow: hidden;
+  border-radius: 100px 30px 100px 30px ;
 }
 
 .contain--section {

@@ -4,9 +4,22 @@ justify-content: space-around;
 flex-wrap: wrap;
 gap: 15px;
 width: 70%;
-margin: 0 auto;
+margin: 30px auto;
+padding: 20px;
+border-radius: 100px 30px 100px 30px ;
+background-color: skyblue;
 }
 
+.about--section--article--texto{
+text-align: center;
+line-height: 30px;
+margin: 20px auto;
+}
+
+.about--section--article--texto h1{
+  text-transform: uppercase;
+  padding: 15px 0;
+}
 
 .about--section--article{
   display: inline-block;
@@ -14,8 +27,8 @@ margin: 0 auto;
   width: 320px;
   height: 450px;
   padding: 15px;
-  border-radius: 10px ;
   background-color: aliceblue;
+  border-radius: 100px 30px 100px 30px ;
 }
 
 .about--section--article img{
@@ -24,6 +37,88 @@ margin: 0 auto;
   border-radius: 100%;
 }
 
+.about--section--article h1{
+  font-size: 1.5rem;
+}
+.about--section--article h2{
+  font-size: 1.2rem;
+}
 .about--section--article h1, .about--section--article h2{
   padding: 10px 0;
+}
+
+@media (max-width: 1280px){
+
+  .about--section--quienes--somos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 90%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 100px 30px 100px 30px ;
+    background-color: skyblue;
+    }
+
+  .about--section--article{
+    display: inline-block;
+    text-align: center;
+    width: 320px;
+    height: 450px;
+    padding: 15px;
+    background-color: aliceblue;
+    border-radius: 100px 30px 100px 30px ;
+  }
+}
+
+@media (max-width: 1024px){
+
+  .about--section--quienes--somos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 100px 30px 100px 30px ;
+    background-color: skyblue;
+    }
+
+  .about--section--article{
+    display: inline-block;
+    text-align: center;
+    width: 320px;
+    height: 450px;
+    padding: 15px;
+    background-color: aliceblue;
+    border-radius: 100px 30px 100px 30px ;
+  }
+
+}
+
+@media (max-width:428px){
+  .about--section--quienes--somos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    margin: 30px auto;
+    padding: 0;
+    border-radius: 100px 30px 100px 30px ;
+    background-color: skyblue;
+    }
+
+  .about--section--article{
+    display: inline-block;
+    text-align: center;
+    width: 320px;
+    height: 450px;
+    padding: 15px;
+    background-color: aliceblue;
+    border-radius: 100px 30px 100px 30px ;
+  }
+
 }
