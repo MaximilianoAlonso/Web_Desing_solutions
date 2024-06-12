@@ -1,13 +1,12 @@
 .about {
-  width: 80%;
-  margin: 40px auto;
+padding: 100px;
 }
 
 /* ABOUT QUIENES SOMOS */
 
 .about--section--quienes--somos {
   margin: 40px auto;
-
+width: 70%;
   padding: 15px;
 }
 
