@@ -1,321 +1,124 @@
-.about {
-padding: 100px;
-}
-
-/* ABOUT QUIENES SOMOS */
-
-.about--section--quienes--somos {
-  margin: 40px auto;
+.about--section--quienes--somos{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+gap: 15px;
 width: 70%;
+margin: 30px auto;
+padding: 20px;
+border-radius: 100px 30px 100px 30px ;
+background-color: skyblue;
+}
+
+.about--section--article--texto{
+text-align: center;
+line-height: 30px;
+margin: 20px auto;
+}
+
+.about--section--article--texto h1{
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+
+.about--section--article{
+  display: inline-block;
+  text-align: center;
+  width: 320px;
+  height: 450px;
   padding: 15px;
+  background-color: aliceblue;
+  border-radius: 100px 30px 100px 30px ;
 }
 
-.about--conten {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-
-.about--conten--img {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-  width: 600px;
-  padding: 10px;
-  transition: all 2.5s ease;
-}
-
-.about--conten--img img {
-  width: 50%;
+.about--section--article img{
+  display: inline-block;
+  width: 150px;
   border-radius: 100%;
-  transition: all 1s ease;
 }
 
-
-
-
-
-.about--conten--img p{
-  font-weight: 700;
+.about--section--article h1{
   font-size: 1.5rem;
 }
-
-.about--conten--img a {
-  color: black;
-  padding: 15px;
-  transition: all 2s ease;
+.about--section--article h2{
+  font-size: 1.2rem;
+}
+.about--section--article h1, .about--section--article h2{
+  padding: 10px 0;
 }
 
-.about--conten--img:hover a{
-  background-color: var(--colorDarckHaki);
-  border-radius: 20px;
-}
+@media (max-width: 1280px){
 
-.about--conten--eslogan {
-  width: 100%;
-  line-height: 30px;
-  text-align: center;
-
- 
-}
-
-.about--conten--eslogan h2{
-  margin: 20px 0;
-  text-transform: uppercase;
-}
-
-/* ABOUT COLABORADORES */
-
-.about--section--colaboradores{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 20px 0;
-}
-
-
-
-
-.about--section--persona {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 15px;
-  width: 100%;
-  padding: 10px;
-  background-color: var(--colorDarckHaki);
-  margin: 30px 0;
-}
-
-.about--section--persona--2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 15px;
-  width: 100%;
-  padding: 10px;
-  background-color: var(--colorDarckHaki);
-  margin: 30px 0;
-}
-
-.about--section--persona--logo {
-  width: 400px;
-  border-radius: 10px;
- 
-}
-
-.about--section--persona--logo h2{
-  margin: 20px 0;
-}
-
-.about--section--persona--descroption {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 10px ;
-  margin: 20px auto;
- 
-}
-.about--section--persona--descroption-1{
-  width: 400px;
-}
-.about--section--persona--descroption-1 h2{
-  width: 100%;
-  margin: 20px 0;
-}
-.about--section--persona--descroption-1 p{
-  width: 100%;
-}
-
-
-
-#css{
-  color: cornflowerblue;
-  font-size: 4rem;
-  margin: 0 10px;
-}
-
-#js{
-  color: yellow;
-  font-size: 4rem;
-  margin: 0 10px;
-}
-
-#html{
-  color: red;
-  font-size: 4rem;
-  margin: 0 10px;
-}
-
-
-@media(max-width: 1439px){
-
-  .about {
-    width: 80%;
-    margin: 40px auto;
-  }
-  
-  /* ABOUT QUIENES SOMOS */
-  
-  .about--section--quienes--somos {
-    margin: 40px auto;
-
-    padding: 15px;
-    
-  }
-  
-  .about--conten {
+  .about--section--quienes--somos{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 15px;
-    width: 100%;
-  }
-  
-  .about--conten--img {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    width: 100%;
-    padding: 10px;
-    transition: all 2.5s ease;
-  }
-  
-  .about--conten--img img {
-    width: 50%;
-    border-radius: 100%;
-    transition: all 1s ease;
-  }
-  
-  
-  
-  
-  
-  .about--conten--img p{
-    font-weight: 700;
-    font-size: 1.5rem;
-  }
-  
-  .about--conten--img a {
-    color: black;
-    padding: 15px;
-    transition: all 2s ease;
-  }
-  
-  .about--conten--img:hover a{
-    background-color: var(--colorDarckHaki);
-    border-radius: 20px;
-  }
-  
-  .about--conten--eslogan {
-    width: 100%;
-    line-height: 30px;
-    text-align: center;
-  }
-  
-  
-  /* ABOUT COLABORADORES */
-  
-  .about--section--colaboradores{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-   
-  }
-  
-  .about h1 {
-    width: 100%;
-    margin: 20px 0;
-    text-align: center;
-  
-  }
-  
-  
-  .about--section--persona {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 15px;
-    width: 100%;
-    padding: 10px;
-    background-color: var(--colorDarckHaki);
-    margin: 30px 0;
-  }
-  
-  .about--section--persona--2 {
-    display: flex;
-    flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    align-items: center;
     gap: 15px;
-    width: 100%;
-    padding: 10px;
-    background-color: var(--colorDarckHaki);
-    margin: 30px 0;
+    width: 90%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 100px 30px 100px 30px ;
+    background-color: skyblue;
+    }
+
+  .about--section--article{
+    display: inline-block;
+    text-align: center;
+    width: 320px;
+    height: 450px;
+    padding: 15px;
+    background-color: aliceblue;
+    border-radius: 100px 30px 100px 30px ;
   }
-  
-  .about--section--persona--logo {
-   text-align: center;
-    width: 100%;
-    border-radius: 10px;
-  }
-  
-  .about--section--persona--descroption {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 20px auto;
-    width: 100%;
-   
-  }
-  .about--section--persona--descroption-1{
-    width:100%;
-  }
-  .about--section--persona--descroption-1 h2{
-    width: 100%;
-  }
-  .about--section--persona--descroption-1 p{
-    width: 100%;
-  }
-  
-  
-  
-  #css{
-    color: cornflowerblue;
-    font-size: 4rem;
-  }
-  
-  #js{
-    color: yellow;
-    font-size: 4rem;
-  }
-  
-  #html{
-    color: red;
-    font-size: 4rem;
-  }
-  
 }
 
+@media (max-width: 1024px){
 
-@media(max-width:540px){
+  .about--section--quienes--somos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 100px 30px 100px 30px ;
+    background-color: skyblue;
+    }
 
- 
- 
-  
+  .about--section--article{
+    display: inline-block;
+    text-align: center;
+    width: 320px;
+    height: 450px;
+    padding: 15px;
+    background-color: aliceblue;
+    border-radius: 100px 30px 100px 30px ;
+  }
+
+}
+
+@media (max-width:428px){
+  .about--section--quienes--somos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    margin: 30px auto;
+    padding: 0;
+    border-radius: 100px 30px 100px 30px ;
+    background-color: skyblue;
+    }
+
+  .about--section--article{
+    display: inline-block;
+    text-align: center;
+    width: 320px;
+    height: 450px;
+    padding: 15px;
+    background-color: aliceblue;
+    border-radius: 100px 30px 100px 30px ;
+  }
+
 }

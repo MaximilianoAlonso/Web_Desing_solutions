@@ -1,6 +1,7 @@
 .home {
   margin: 0 auto;
   width: 90%;
+  max-width: 1500px;
   overflow: hidden;
 background-color: #b1d7e4;
   padding: 20px;
@@ -203,12 +204,12 @@ color: rgba(255, 255, 255, 0.849);
   }
   .home--baner pre {
     display: block;
-    font-size: 60px;
+    font-size: 30px;
     width: 100%;
     position: absolute;
     top: 80px;
     margin-left: 60px;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.849);
   }
   .home--baner img {
     width: 100%;
@@ -370,7 +371,7 @@ color: rgba(255, 255, 255, 0.849);
 @media (max-width: 1280px) {
   .home {
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     overflow: hidden;
   }
 
@@ -381,11 +382,11 @@ color: rgba(255, 255, 255, 0.849);
   }
   .home--baner pre {
     display: block;
-    font-size: 50px;
+    font-size: 30px;
     width: 100%;
     position: absolute;
     top: 80px;
-    margin-left: 50px;
+    margin-left: 150px;
     color: rgba(255, 255, 255, 0.849);
   }
   .home--baner img {
@@ -544,7 +545,33 @@ color: rgba(255, 255, 255, 0.849);
   }
 }
 
+@media (max-width: 1024px){
+  .home {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1500px;
+    overflow: hidden;
+  background-color: #D7DBDA;
+    padding: 20px;
+    border-radius: 10px 120px 10px 50px;
+    
+  }
+}
+
 @media (max-width:768px){
+  
+  .home {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1500px;
+    overflow: hidden;
+  background-color: #D7DBDA;
+    padding: 20px;
+    border-radius: 10px 120px 10px 50px;
+    
+  }
+  
+  
   .home--baner {
     width: 100%;
     margin: 0px auto 30px;
