@@ -1,11 +1,15 @@
 .footer {
- background-color: skyblue;
- border-radius: 30px 100px 0 0 ;
- margin: 30px auto 0;
- width: 90%;
- max-width: 1500px;
-}
+ background-color: rgb(16, 42, 71);
+/*  border-radius: 30px 100px 0 0 ;
+ */ margin: 30px auto 0;
+ width: 100vw;
 
+ max-width: 1900px;
+ color: #ffffff;
+}
+.footer a {
+  color: #ffffff;
+}
 .footer--info {
   display: flex;
   justify-content: space-around;
@@ -25,7 +29,10 @@
   flex-direction: column;
   gap: 10px;
 }
-
+.footer--info--redes i,
+.footer--info--contactos i {
+margin-right: 5px;
+}
 .footer--info--contactos {
     display: flex;
     flex-direction: column;
@@ -39,7 +46,12 @@
     flex-direction: column;
     gap: 10px;
 }
-
+.footer h3{
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+ 
+  color: #E6EBFF
+}
 .footer--info--menu {
     display: flex;
     flex-direction: column;

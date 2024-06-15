@@ -3,36 +3,113 @@
   width: 90%;
   max-width: 1500px;
   overflow: hidden;
-background-color: #b1d7e4;
+background-color:#e6ebff /* #b1d7e4 */;
   padding: 20px;
   border-radius: 10px 120px 10px 50px;
   
 }
-
+.home--section--card p{
+  padding-top: 15px;
+  text-shadow: 2px 2px 2px white;
+  font-weight: 900;
+}
+.titulo-tiposPaginas{
+  text-align: center;
+  font-size: 45px;
+  padding: 30px 0 20px;
+}
 .home--baner {
   width: 100%;
   margin: 0px auto 30px;
-  position: relative;
-  height: 300px;
+  height: 700px;
   overflow: hidden;
-  border-radius: 10px 110px 10px 50px;
+  position: relative;
+  box-shadow: 0 0 15px rgb(32, 84, 153);
+  transition: all 2s;
+  border-radius: 15px 110px 15px 50px !important;
+  
+}
+.videoEffect{
+height: 300px;
+overflow: hidden;
+transition: all 2s;
 }
 .home--baner video{
 width: 100%;
-
+box-shadow: 2px 2px 2px blueviolet;
+border-radius: 15px 110px 15px 50px !important;
+transition: all 2s;
 }
-.home--baner pre{
-  text-transform: uppercase;
-  display:block;
-  font-size: 62px;
-  width: 100%;
+
+.home--baner .textoBanner{
+  display: flex;
+  flex-direction: column;
+text-align: center;
+font-size: 55px;
+ width: 100%;
 position: absolute;
-padding: 10px;
-line-height: 60px;
-top: 80px;
-margin-left: 0;
-background-color: rgba(255, 255, 255, 0.418);
-color: rgba(255, 255, 255, 0.849);
+top: 120px; 
+ color: white;
+}
+.titleName{
+  text-transform: uppercase;
+  text-align: center;
+height: 30px;
+font-size: 65px;  
+opacity: 1;
+  transition: all 2s;
+  text-shadow: 2px 2px 5px black;
+  margin-top: -90px;
+}
+.slogan{
+  height: 30px;
+  margin-top: 60px;
+ text-align: left;
+ font-size: 65px;
+ margin-left: 100px;
+  opacity: 1;
+  transition: all 2s;
+  text-shadow: 2px 2px 5px black;
+}
+.slogan1{
+  font-size: 65px;
+  height: 30px;
+  padding-top: 190px !important;
+  text-align: center;
+padding-left: 400px;
+  opacity: 1;
+  transition: all 2s;
+  text-shadow: 2px 2px 5px black;
+}
+.fade-out{
+opacity: 0;
+letter-spacing: 10px;
+}
+.titleNameEffect{
+  font-size: 65px;
+  height: 100px;
+  font-weight: 900;
+  padding-top: 10px;
+ letter-spacing: 3px;
+ background-color: rgba(240, 248, 255, 0.281);
+ margin-top: -290px;
+ text-shadow: 2px 2px 10px black;
+}
+.sloganFijo{
+  background-color: rgba(255, 255, 255, 0.521);
+opacity: 0;
+  color: rgb(189, 203, 230);
+  font-size: 23px;
+  z-index: 1000;
+letter-spacing: 3px;
+margin-top: 0;
+padding: 5px;
+transition: all 3s;
+}
+.sloganFijoEffect{
+opacity: 1;
+text-shadow: 2px 2px 4px black;
+transition: all 3s;
 }
 .home--baner img {
   width: 100%;
@@ -201,15 +278,7 @@ color: rgba(255, 255, 255, 0.849);
     width: 100%;
     margin: 0px auto 30px;
     position: relative;
-  }
-  .home--baner pre {
-    display: block;
-    font-size: 30px;
-    width: 100%;
-    position: absolute;
-    top: 80px;
-    margin-left: 60px;
-    color: rgba(255, 255, 255, 0.849);
+  
   }
   .home--baner img {
     width: 100%;
@@ -380,15 +449,7 @@ color: rgba(255, 255, 255, 0.849);
     margin: 0px auto 30px;
     position: relative;
   }
-  .home--baner pre {
-    display: block;
-    font-size: 30px;
-    width: 100%;
-    position: absolute;
-    top: 80px;
-    margin-left: 150px;
-    color: rgba(255, 255, 255, 0.849);
-  }
+
   .home--baner img {
     width: 100%;
     border-radius: 10px;
@@ -577,15 +638,7 @@ color: rgba(255, 255, 255, 0.849);
     margin: 0px auto 30px;
     position: relative;
   }
-  .home--baner pre {
-    display: block;
-    font-size: 24px;
-    width: 100%;
-    position: absolute;
-    top: 50px;
-    margin-left: 10px;
-    color: rgba(255, 255, 255, 0.849);
-  }
+
   .home--baner img {
     width: 100%;
     border-radius: 10px;
@@ -627,15 +680,7 @@ color: rgba(255, 255, 255, 0.849);
     margin: 0px auto 30px;
     position: relative;
   }
-  .home--baner pre {
-    display: block;
-    font-size: 16px;
-    width: 100%;
-    position: absolute;
-    top: 50px;
-    margin-left: 10px;
-    color: rgba(255, 255, 255, 0.849);
-  }
+
   .home--baner img {
     width: 100%;
     border-radius: 10px;

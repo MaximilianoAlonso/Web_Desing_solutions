@@ -7,7 +7,7 @@ var swiper = new Swiper(".mySwiper", {
 
     loop:true,
 autoplay: {
-delay: 3000, // Cambiar cada 5 segundos
+delay: 4000, // Cambiar cada 5 segundos
 disableOnInteraction: false, // Permitir que el autoplay continúe incluso cuando el usuario interactúa con el swiper
 } 
 });
