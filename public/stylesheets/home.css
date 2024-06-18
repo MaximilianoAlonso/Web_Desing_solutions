@@ -663,7 +663,7 @@ transition: all 3s;
   .home--section--card-items h2 {
     width: 100%;
     font-size: 40px;
-    margin: 50px 0;
+    margin: 0;
   }
 }
   
@@ -680,7 +680,7 @@ transition: all 3s;
 }
 .home--baner {
   width: 100%;
-  margin: 0px auto 30px;
+  margin: 0px auto 3px;
 height: auto;
   overflow: hidden;
   position: relative;
@@ -788,30 +788,41 @@ transition: all 3s;
 .home--section--card-items {
   display: flex;
   width: 100%;
-  height: auto;
+  height: 300px;
   flex-wrap: wrap;
   border-radius: 5px;
   position: relative;
+  margin:30px 0;
+    background-color:rgb(32 84 153 / 25%);
 }
 
 .home--section--card-items h2 {
   width: 100%;
-  font-size: 40px;
-  margin-top: 150px;
+  font-size: 30px;
+  margin-top: 10px;
+  color:white;
+  text-shadow: 0 0 10px black
+  
+  
+ 
 }
 .home--section--card-items p {
-  line-height: 35px;
+  display:flex;
+  line-height: 20px;
   letter-spacing: 2px;
-  width: 70%;
-  height: 200px;
+  width: 90%;
+  height: ;
   margin: 0 auto;
-  font-size: 28px;
+  font-size: 20px;
+  color:white;
+ text-shadow: 0 0 5px black
+
 }
 .home--section--card-items a {
   position: absolute;
-  bottom: 10px;
-  right: 10px;
-  background-color: bisque;
+  bottom: -15px;
+  right: 5px;
+   background-color:rgb(151 243 192);
   padding: 10px;
   border-radius: 10px;
 }

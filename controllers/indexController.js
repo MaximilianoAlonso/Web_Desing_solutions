@@ -1,4 +1,6 @@
 const fs = require("fs");
+const path = require('path');
+const filePath = path.join(__dirname,"..", 'data', 'data.json');
 
 const nodemailer = require("nodemailer");
 let transporter = nodemailer.createTransport({
@@ -27,7 +29,7 @@ const sendMail = (to, subject, text) => {
 
 module.exports = {
   index: (req, res) => {
-    const data = JSON.parse(fs.readFileSync("./data/data.json", "utf-8"));
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
 
     res.render("index", {
       data,
@@ -59,7 +61,7 @@ module.exports = {
   },
   pagesTypes: (req, res) => {
     const { id } = req.params;
-    const data = JSON.parse(fs.readFileSync("./data/data.json", "utf-8"));
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
     const tipoPagina = data.find((tipo) => tipo.id == id);
 
     res.render("pagesTypes", {

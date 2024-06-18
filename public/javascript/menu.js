@@ -34,4 +34,5 @@ window.addEventListener("touch", function(){
 })
 openSubMenu.addEventListener("click", function(){
     subMenu.classList.toggle("openCloseSubmenu")
+    openSubMenu.classList.toggle("servicesTouch")
 })

@@ -1,6 +1,6 @@
 .header {
 
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   padding: 10px 0;
   z-index: 10000;
@@ -35,7 +35,7 @@ width: 200px;
   padding: 0
 }
 .header--menu--items li {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 900;
   position: relative;
   cursor:pointer;
@@ -102,7 +102,8 @@ width: 200px;
   display: block;
     position:absolute;
     right:10px;
-        font-size: 33px;
+        font-size: 39px;
+    width:20%;
     
   }
   .closeMenu{
@@ -117,13 +118,14 @@ width: 200px;
 
   .header--menu--logo {
     display: flex;
+    width:60%;
     align-items: left;
     padding-top: 10px;
     height: auto;
   }
   
   .header--logo {
-  width: 150px;
+  width: 100%;
   }
   .header--menu {
     display: none;
@@ -135,7 +137,7 @@ width: 200px;
     top: 0;
     left: 0;
     z-index: 500;
-    background-color:rgb(159, 177, 189)
+    background-color:rgb(32 84 153 / 55%)
    
   }
   .header--menu--items {
@@ -155,13 +157,15 @@ width: 200px;
    padding-bottom: 15px;
     text-shadow: unset;
     transition: all 0.8s;
+  color:white
   }
-redes {
+    .header--menu--items li a{
 
+  color:white
+  }
+.redes{
+  display: none;
 }
-
-
-
 
   .redes i {
 margin-left:50%
@@ -173,15 +177,25 @@ margin-left:50%
     left: 0;
     text-align: center;
     z-index: 1;
-    background-color: #f9f9f1;
+    background-color:unset;
     margin: 0;
     padding:0;
-    width:100%
+    width:100%;
+    font-size:10px !important;
+    background-color:rgb(16, 42, 71);
+    
+  }
+  .servicesTouch{
+     background-color:rgb(16, 42, 71);
+    border-radius: 10px 10px 0 0
   }
   .header--menu--items ul li {
     width: 100%;
     padding: 10px;
     z-index: 1;
+        font-size:25px
+    ;
+    border:unset
   }
   
  

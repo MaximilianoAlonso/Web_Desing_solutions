@@ -65,20 +65,12 @@ line-height: 40px;
 
 @media (max-width: 780px){
   .about--section--quienes--somos{
-display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
-gap: 15px;
-width: 100%;
-margin: 30px auto;
-padding: 20px;
-
-}
+    display: flex;justify-content: space-around;flex-wrap: wrap;gap: 15px;width: 100%;margin: 30px auto;padding: 0;}
 
 .about--section--article--texto{
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 50px;
+  padding-bottom: 5px;
 
 
 }
@@ -89,6 +81,7 @@ padding: 20px;
   text-align: center;
   font-size: 30px;
   padding: 15px 0;
+  margin-top:5px
 }
 .about--section--article--texto div{
   width: 100%;
@@ -100,16 +93,16 @@ border-radius: 10px;
 
 }
 .about--section--article--texto .texto{
-  width: 100%;
+  width: 90vw;
   text-align:center;
   font-size: 20px;
-line-height: 40px;
+line-height: 29px;
   }
 .about--section--article{
   display: inline-block;
   text-align: center;
   width: 420px;
-  height: 600px;
+  height: 650px;
   padding: 15px;
   background-color: aliceblue;
   border-radius: 20px
@@ -127,7 +120,7 @@ line-height: 40px;
 }
 .about--section--article h2{
   font-size: 1.5rem;  
-  color:#3cbc3c;
+  color:#3cbc3c !important;
   margin-bottom:10px
   
 }
