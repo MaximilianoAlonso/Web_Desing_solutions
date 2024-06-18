@@ -13,39 +13,50 @@
 }
 
 .contain--section {
-  width: 90%;
+  width: 80%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   flex-wrap: wrap;
-  margin: 40px auto;
 }
 
 .tipos-de-paginas--titulo {
   width: 100%;
   margin: 0 auto;
   margin-bottom: 50px;
+  display:flex;
+  flex-wrap:wrap
+  
 }
 
 .tipos-de-paginas--titulo--imagen {
-  width: 100%;
-  margin: 50px auto;
+  width: 50%;
+  overflow:hidden;
+  border-radius:10px;
 }
 
 .tipos-de-paginas--titulo--imagen img {
-  width: 100%;
+  width: 250%;
+  overflow:hidden;
+  
+  
 }
 
 .tipos-de-paginas--titulo h2 {
+  width:100%;
   text-align: center;
-  font-size: 3rem;
+  margin-bottom:50px;
+  text-transform:uppercase;
+  font-size:40px;
+   text-shadow: 2px 2px 2px #4066ac;
+  
 }
 
 .tipos-de-paginas section p {
-  width: 100%;
-  text-align: center;
+  width: 50%;
+  padding:0 20px;
+  font-size: 22px;
+  text-align:center;
   margin: 0 auto;
-  line-height: 23px;
+  line-height: 36px;
 }
 
 .tipos-de-paginas--detail {
@@ -55,11 +66,21 @@
   gap: 30px;
   width: 100%;
   margin: 0 auto;
+  padding-bottom:30px
 }
-
 .tipos-de-paginas--detail ul {
-  width: 500px;
-  line-height: 23px;
+  width: 40%;
+}
+.tipos-de-paginas--detail ul h3{
+  letter-spacing:2px;
+  padding-bottom:20px;
+  text-transform:uppercase
+  
+}
+.tipos-de-paginas--detail ul li{
+ list-style:disc;
+  padding:
+  5px
 }
 
 @media (max-width: 1413px){
@@ -75,13 +96,27 @@
 
   .tipos-de-paginas--detail ul {
     width: 350px;
-    line-height: 23px;
+    line-height: 33px;
+  }
+  .tipos-de-paginas section p {
+    font-size: 17px;
+    line-height: 28px;
+  
   }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   .tipos-de-paginas--detail ul {
     width: 100%;
     line-height: 23px;
+  }
+  .tipos-de-paginas section p {
+    font-size: 17px;
+    line-height: 28px;
+  
+  }
+  .tipos-de-paginas--titulo--imagen img {
+    width: 350%;
+    
   }
 }
